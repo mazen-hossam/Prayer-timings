@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+    />
+<script src="https://cdn.jsdelivr.xyz/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.7/axios.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Domine:wght@500&family=Libre+Baskerville&family=Montserrat:ital,wght@0,100;0,700;0,800;1,600;1,700&family=Noto+Sans+JP&family=Noto+Serif+Vithkuqi:wght@500&family=Poppins:wght@500&family=Roboto+Condensed:ital@1&family=Rubik+Iso&family=Ruwudu&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+
+
+</head>
+<body class="body">
+
+    <!--title-->
+    <div>
+        <div>
+            <h1 class="city" id="city">الرياض</h1>
+            <h6 class="day" id="day">الجمعه 24 نوفمبر</h6>
+            <hr style="margin: 0px 50px; color: white;">
+        </div>
+    </div>
+
+   <!--cards-->
+    <div class="container cards">
+        <div class="card-body col-md-2">
+            <h5 class="card-title text-white">الفجر</h5>
+            <h4 class="center" id="fajr">4:30</h4>
+        </div>
+    
+        <div class="card-body col-md-2">
+            <h5 class="card-title text-white">الشروق</h5>
+            <h4 class="center" id="shrouk">4:30</h4>
+        </div>
+    
+        <div class="card-body col-md-2">
+            <h5 class="card-title text-white">الظهر</h5>
+            <h4 class="center" id="alduhr">4:30</h4>
+        </div>
+    
+        <div class="card-body col-md-2">
+            <h5 class="card-title text-white">العصر</h5>
+            <h4 class="center" id="alasr">4:30</h4>
+        </div>
+    
+        <div class="card-body col-md-2">
+            <h5 class="card-title text-white">المغرب</h5>
+            <h4 class="center" id="almaghrb">4:30</h4>
+        </div>
+
+        <div class="card-body col-md-2">
+            <h5 class="card-title text-white">العشاء</h5>
+            <h4 class="center" id="elasha">4:30</h4>
+        </div>
+    </div>
+   
+   <!--select-->
+    <div class="container text-center">
+        <select name="" id="selected">
+        </select>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

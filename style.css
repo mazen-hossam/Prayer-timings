@@ -1,0 +1,60 @@
+.body{
+    direction: rtl;
+    background: linear-gradient(45deg , #240165 , #05001c);
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Domine', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Noto Serif Vithkuqi', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Rubik Iso', system-ui;
+    font-family: 'Ruwudu', serif;
+    font-family: 'Tajawal', sans-serif;
+    font-family: 'Libre Baskerville', serif;
+}
+.city{
+    font-size: 80px;
+    color: white;
+    margin-top: 5rem;
+    margin-right: 20px;
+}
+.day{
+    color: white;
+    font-size: 40px;
+    padding: 10px;
+    margin-top: 2rem;
+}
+
+.card-body{
+    background-color: white;
+    margin: 10px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100px;
+    margin-top: 50px;
+}
+.cards{
+    display: flex;
+    padding-top: 100px;
+    width: 80rem;
+
+}
+.card-title{
+    background: linear-gradient(45deg , #5709ee , #7a37bf);
+    height: 35px;
+    padding: 5px;
+}
+
+#selected{
+  margin-top: 4rem;
+  margin-bottom: 3.5rem;
+  width: 10rem;
+  background: none;
+   border-radius: 20px;
+   color: white;
+}
